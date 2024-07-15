@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar Steppers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            background-color: #B22222;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            padding: 14px 20px;
+            display: block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #B22222;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Stellar Steppers</h1>
+        <p>A Virtual Walking Group</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#portfolio">Challenges</a>
+        <a href="#contact">Contact</a>
+        <a href="#blog">Blog</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Stellar Steppers, a virtual walking group dedicated to promoting health, wellness, and community through walking challenges and events. Join us on our journey to stay active and connect with like-minded individuals from all over the world.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Challenges</h2>
+        <p>Check out our latest walking challenges and see how you can participate:</p>
+        <ul>
+            <li>Seven-Day Virtual Walking Challenge</li>
+            <li>Secret Step Swap Challenge</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you have any questions or would like to join our group, feel free to reach out!</p>
+        <p>Email: contact@stellarsteppers.com</p>
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Stay updated with our latest news, tips, and stories from the Stellar Steppers community.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Stellar Steppers. All rights reserved.</p>
+    </footer>
+</body>
+</html>
